@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_500"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/allphoto"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="@color/purple_500"
+                app:cardCornerRadius="28dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="All Photo"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/whatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="@color/purple_500"
+                app:cardCornerRadius="28dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="WhatsApp Photo"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/folder"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="@color/purple_500"
+                app:cardCornerRadius="28dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Folder Photo"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="@color/purple_500"
+                app:cardCornerRadius="28dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Folder Video"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/allvideo"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="@color/purple_500"
+                app:cardCornerRadius="28dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="All Video"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
